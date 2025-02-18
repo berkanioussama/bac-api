@@ -23,4 +23,10 @@ export const classes: Class[] = [
     engName: "giography",
     tag: "حفض"
   },
+  {
+    id: "4",
+    name: "فلسفة",
+    engName: "philosophy",
+    tag: "حفض"
+  },
 ]
