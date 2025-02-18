@@ -3,8 +3,8 @@ import { AppService } from './app.service';
 import { Class } from './data/classes';
 import { Lesson } from './data/lessons';
 
-@Controller('classes')
-export class ClassesController {
+@Controller()
+export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
