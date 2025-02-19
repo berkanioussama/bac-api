@@ -1,10 +1,14 @@
 import { Injectable } from '@nestjs/common';
-import { Class, classes } from 'src/data/classes';
+import { Lesson, lessons } from 'src/data/lessons';
 
 @Injectable()
   
 export class LessonsService {
-  getClasses(): Class[] {
-      return classes;
-    }
+  getLessons(): Lesson[] {
+    return lessons;
+  }
+
+  getLessonsByTrimestre(trimestre: number): Lesson[] {
+    return lessons.filter((lesson) => lesson.trimestre === trimestre);
+  }
 }
