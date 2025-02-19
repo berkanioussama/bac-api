@@ -20,7 +20,7 @@ export const classes: Class[] = [
   {
     id: "g",
     name: "جغرافيا",
-    engName: "giography",
+    engName: "geography",
     tag: "حفض"
   },
   {
