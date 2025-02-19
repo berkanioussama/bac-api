@@ -58,7 +58,7 @@ export const lessons: Lesson[] = [
   },
   {
     id: "i09",
-    classId: "1",
+    classId: "i",
     title: "الصحة النفسية والجسمية في القرآن الكريم",
     trimestre: 2,
   },
@@ -96,7 +96,7 @@ export const lessons: Lesson[] = [
   },
   {
     id: "i15",
-    classId: "1",
+    classId: "i",
     title: "من المعاملات المالية الجائزة",
     trimestre: 3,
   },
@@ -120,7 +120,7 @@ export const lessons: Lesson[] = [
   },
   {
     id: "i19",
-    classId: "1",
+    classId: "i",
     title: "خطبة الرسول ﷺ حجة الوداع",
     trimestre: 3,
   },
