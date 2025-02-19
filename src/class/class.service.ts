@@ -4,7 +4,7 @@ import { Class, classes } from 'src/data/classes';
 @Injectable()
 export class ClassService {
 
-  getClassByName(className: string): Class[] {
-    return classes.filter((item) => item.engName === className);
+  getClassByName(className: string): Class | null {
+    return classes.find((item) => item.engName === className) || null;
   }
 }
