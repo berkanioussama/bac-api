@@ -1,6 +1,5 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { AppService } from './app.service';
-import { Lesson } from '../data/lessons';
 
 @Controller()
 export class AppController {
@@ -9,7 +8,7 @@ export class AppController {
   
   @Get()
   getHellow(){
-    return this.lessonsService.getHellow();
+    return this.appService.getHellow();
   }
   
 }
